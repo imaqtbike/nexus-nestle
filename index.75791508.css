@@ -123,6 +123,7 @@ html {
   text-align: center;
 }
 .company__introductory .company__name h1 {
+  z-index: 5;
   font-size: 155px;
   text-transform: uppercase;
   font-family: "Helvetica Neue";
@@ -534,10 +535,10 @@ footer .main__header {
   animation-iteration-count: infinite;
 }
 aside {
-  z-index: 19;
+  z-index: 20;
 }
 label {
-  z-index: 30;
+  z-index: 999;
 }
 .aside-section {
   top: 0;
