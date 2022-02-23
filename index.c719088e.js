@@ -17,6 +17,13 @@ let originalZoom = 0.5;
 let zoomSpeed = 0.5;
 let zoomAddition = 1;
 let lastScrollTop = 0;
+const scrollTopEl = document.querySelector('.scrollTop');
+scrollTopEl.addEventListener("click", function() {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+});
 document.addEventListener("scroll", function() {
     var st = window.pageYOffset || document.documentElement.scrollTop; //
     if (st > lastScrollTop) {

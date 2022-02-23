@@ -403,6 +403,12 @@ footer .main__header {
     margin-right: 7rem;
     margin-bottom: 4rem;
   }
+  .moveup .ip__icon:hover {
+    animation: pulse;
+    /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
   .moveup .ip__icon svg {
     width: 1.4rem;
     height: 1.4rem;

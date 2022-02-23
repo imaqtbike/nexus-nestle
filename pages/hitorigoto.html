@@ -114,7 +114,7 @@
           </article>
         </section>
         <div class="moveup">
-          <div class="ip__icon">
+          <div class="ip__icon scrollTop">
             <svg enable-background="new 0 0 17 24.8" viewbox="0 0 17 24.8" xmlns="http://www.w3.org/2000/svg"><path d="m2.6 24.8-2.6-3.1 10.9-9.3-10.9-9.4 2.6-3 14.4 12.4z"></path></svg>                     
           </div>   
         </div>
@@ -173,5 +173,14 @@
            </div>
            </div>
       </main>
-<script src="/hitorigoto.8a4b3403.js"></script></body>
+</body>
+<script>const scrollTopEl = document.querySelector('.scrollTop');
+scrollTopEl.addEventListener("click", function() {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+});
+
+</script>
 </html>
