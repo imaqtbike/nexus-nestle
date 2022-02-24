@@ -29,6 +29,9 @@
 * {
   box-sizing: border-box;
 }
+html {
+  font-size: 16px;
+}
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -263,450 +266,6 @@ footer .main__header .header__navigation {
   width: 92.6px;
   height: 92.6px;
   margin-left: 37.1px;
-}
-@media screen and (max-width: 1200px) {
-  html {
-    font-size: 62.5%;
-  }
-
-  section {
-    padding-left: 13rem;
-  }
-  section .col {
-    margin-bottom: 7rem;
-  }
-  section .col img {
-    width: 40rem;
-    height: 32rem;
-  }
-  section .col h2 {
-    font-size: 2.3rem;
-  }
-  section .col p {
-    font-size: 1.8rem;
-    line-height: 2.6rem;
-    margin-top: 1.5rem;
-  }
-}
-@media screen and (max-width: 1100px) {
-  html {
-    font-size: 62.5%;
-  }
-
-  .main__header {
-    width: 90rem;
-    padding-left: 10rem;
-    font-size: 1rem;
-  }
-  .main__header img {
-    height: 50%;
-  }
-  .main__header .header__navigation ul {
-    gap: 1.8rem;
-  }
-  .main__header .header__navigation li {
-    font-size: 16px;
-  }
-
-  .name {
-    width: 70rem;
-    margin-bottom: 5rem;
-  }
-  .name #name {
-    font-size: 5rem;
-    font-weight: 600;
-    margin-left: 10rem;
-    margin-right: 5rem;
-    margin-top: 10rem;
-  }
-  .name div {
-    font-size: 1.7rem;
-    margin-top: 13.3rem;
-  }
-
-  .orangeline {
-    height: 3rem;
-    width: 57rem;
-    top: 17.5rem;
-  }
-
-  #name2 {
-    margin-bottom: 5rem;
-    margin-left: 10rem;
-    font-size: 1.7rem;
-  }
-
-  section {
-    padding-left: 13rem;
-  }
-  section #name2 {
-    margin-bottom: 3rem;
-    margin-left: 0rem;
-    font-size: 1.7rem;
-  }
-  section .col {
-    margin-bottom: 7rem;
-  }
-  section .col img {
-    width: 32rem;
-    height: 25rem;
-    margin-bottom: 1.5rem;
-  }
-  section .col h2 {
-    font-size: 1.7rem;
-    line-height: 30px;
-    margin-bottom: 8.5px;
-    letter-spacing: 5px;
-  }
-  section .col hr {
-    width: 66.95px;
-    height: 0.09px;
-    background-color: #13223D;
-    border: none;
-  }
-  section .col p {
-    font-size: 1.4rem;
-    line-height: 2.6rem;
-    margin-top: 1.5rem;
-  }
-
-  .pagination {
-    margin-bottom: 10rem;
-    font-size: 1.7rem;
-    margin-right: 20rem;
-  }
-  .pagination li {
-    margin-left: 2rem;
-    width: 4rem;
-  }
-  .pagination .ip__icon {
-    width: 4rem;
-    height: 4rem;
-  }
-  .pagination .ip__icon svg {
-    width: 1.5rem;
-    height: 1.5rem;
-  }
-
-  .moveup .ip__icon {
-    width: 3.6rem;
-    height: 3.6rem;
-    margin-right: 7rem;
-    margin-bottom: 4rem;
-    margin-top: 13rem;
-  }
-  .moveup .ip__icon svg {
-    width: 1.4rem;
-    height: 1.4rem;
-  }
-
-  footer {
-    width: 90rem;
-    margin-left: 3rem;
-  }
-  footer .main__header {
-    padding-left: 3rem;
-    padding-right: 1rem;
-    font-size: 1.3rem;
-    gap: 3rem;
-  }
-
-  .end {
-    margin-left: 4rem;
-    margin-top: 4rem;
-    margin-bottom: 5rem;
-  }
-  .end p {
-    font-size: 1.3rem;
-    margin-left: 2rem;
-  }
-  .end a {
-    margin-left: 2rem;
-    font-size: 5rem;
-    line-height: 3rem;
-    font-weight: 600;
-  }
-  .end .foottag li {
-    font-size: 1.3rem;
-    width: 7rem;
-    height: 7rem;
-    margin-left: 3rem;
-  }
-}
-@media screen and (max-width: 800px) {
-  html {
-    font-size: 62.5%;
-  }
-
-  .main__header {
-    width: 67rem;
-    padding-left: 5rem;
-    padding-right: 0rem;
-  }
-  .main__header img {
-    width: 65%;
-  }
-  .main__header .header__navigation ul {
-    display: flex;
-    list-style: none;
-    gap: 32.5px;
-    text-transform: uppercase;
-  }
-  .main__header .header__navigation ul li {
-    font-size: 0.8rem;
-    font-family: "Helvetica Neue Light";
-  }
-
-  .name {
-    width: 50rem;
-    margin-bottom: 5rem;
-  }
-  .name #name {
-    font-size: 3.5rem;
-    font-weight: 600;
-    margin-left: 3rem;
-    margin-right: 0rem;
-    margin-top: 8rem;
-  }
-  .name div {
-    font-size: 2rem;
-    margin-top: 9.5rem;
-    margin-left: 4rem;
-  }
-
-  .orangeline {
-    height: 2.3rem;
-    width: 35rem;
-    top: 13.5rem;
-  }
-
-  section {
-    padding-left: 6rem;
-    margin-left: 2rem;
-  }
-  section #name2 {
-    margin-bottom: 2rem;
-    margin-left: 0rem;
-    font-size: 2rem;
-  }
-  section .col {
-    width: 40rem;
-    margin-left: 0rem;
-    margin-bottom: 5rem;
-  }
-  section .col img {
-    width: 38rem;
-    height: 30rem;
-    margin-bottom: 0.8rem;
-  }
-  section .col h2 {
-    font-size: 2rem;
-    line-height: 2.5rem;
-    margin-bottom: 0rem;
-  }
-  section .col p {
-    width: 39rem;
-    font-size: 1.5rem;
-    line-height: 1.8rem;
-    margin-top: 0rem;
-  }
-
-  .pagination {
-    font-size: 2rem;
-    margin-right: 10rem;
-    margin-bottom: 6rem;
-  }
-  .pagination li {
-    margin-left: 2rem;
-    width: 20rem;
-  }
-  .pagination .ip__icon {
-    width: 4rem;
-    height: 4rem;
-  }
-  .pagination .ip__icon svg {
-    width: 2rem;
-    height: 2rem;
-  }
-
-  .moveup .ip__icon {
-    width: 3.2rem;
-    height: 3.2rem;
-    margin-right: 7rem;
-    margin-bottom: 3rem;
-    margin-top: 10rem;
-  }
-  .moveup .ip__icon svg {
-    width: 1.3rem;
-    height: 1.3rem;
-  }
-
-  footer {
-    font-size: 0.9rem;
-    width: 70rem;
-    margin-left: 1rem;
-  }
-  footer .main__header {
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-  footer .main__header {
-    height: 8rem;
-    padding-left: 1.5rem;
-  }
-
-  .end {
-    margin-left: 0rem;
-    margin-top: 2rem;
-    margin-bottom: 5rem;
-  }
-  .end p {
-    font-size: 0.9rem;
-    margin-left: 2rem;
-  }
-  .end a {
-    margin-left: 2rem;
-    font-size: 3rem;
-    line-height: 3rem;
-    font-weight: 600;
-  }
-  .end .foottag li {
-    font-size: 1rem;
-    width: 6rem;
-    height: 6rem;
-    margin-left: 2rem;
-  }
-}
-@media screen and (max-width: 575px) {
-  html {
-    font-size: 62.5%;
-  }
-
-  .main__header {
-    width: 43rem;
-    padding-left: 2.4rem;
-  }
-  .main__header img {
-    width: 8rem;
-  }
-  .main__header .header__navigation ul {
-    gap: 1.2rem;
-  }
-  .main__header .header__navigation ul li {
-    font-size: 0.7rem;
-  }
-
-  .name {
-    width: 50rem;
-    margin-bottom: 3rem;
-  }
-  .name #name {
-    font-size: 3rem;
-    font-weight: 600;
-    margin-left: 4rem;
-    margin-right: 0rem;
-    margin-top: 10rem;
-  }
-  .name div {
-    font-size: 1.5rem;
-    margin-top: 11.5rem;
-  }
-
-  .orangeline {
-    height: 2rem;
-    width: 35rem;
-    top: 14.5rem;
-  }
-
-  section {
-    padding-left: 2rem;
-  }
-  section #name2 {
-    margin-bottom: 2rem;
-    margin-left: 2rem;
-    font-size: 1.5rem;
-  }
-  section .col {
-    width: 23rem;
-    margin-left: 3rem;
-    margin-bottom: 3rem;
-  }
-  section .col img {
-    width: 33rem;
-    height: 25rem;
-    margin-bottom: 0.8rem;
-  }
-  section .col h2 {
-    font-size: 1.5rem;
-    line-height: 2.5rem;
-    margin-bottom: 0rem;
-  }
-  section .col p {
-    width: 30rem;
-    font-size: 1.3rem;
-    line-height: 1.3rem;
-    margin-top: 0rem;
-  }
-
-  .pagination {
-    font-size: 1.5rem;
-    margin-right: 10rem;
-    margin-bottom: 6rem;
-  }
-  .pagination li {
-    margin-left: 2rem;
-    width: 20rem;
-  }
-  .pagination .ip__icon {
-    width: 3.2rem;
-    height: 3.2rem;
-  }
-  .pagination .ip__icon svg {
-    width: 1.5rem;
-    height: 1.5rem;
-  }
-
-  .moveup .ip__icon {
-    width: 3.2rem;
-    height: 3.2rem;
-    margin-right: 7rem;
-    margin-bottom: 3rem;
-    margin-top: 10rem;
-  }
-  .moveup .ip__icon svg {
-    width: 1.3rem;
-    height: 1.3rem;
-  }
-
-  footer {
-    font-size: 1rem;
-    width: 46.5rem;
-    margin-left: 1.5rem;
-  }
-  footer .main__header {
-    height: 6rem;
-    padding-left: 1.5rem;
-  }
-
-  .end {
-    margin-left: 0rem;
-    margin-top: 2rem;
-    margin-bottom: 5rem;
-  }
-  .end p {
-    font-size: 1rem;
-  }
-  .end a {
-    font-size: 3rem;
-    line-height: 3rem;
-    font-weight: 600;
-  }
-  .end .foottag li {
-    font-size: 1rem;
-    width: 5.5rem;
-    height: 5.5rem;
-    margin-left: 2rem;
-  }
 }
 .nav-burger {
   margin-top: 20px;
@@ -953,5 +512,134 @@ p {
   /* referring directly to the animation's @keyframe declaration */
   animation-duration: 2s;
   animation-iteration-count: infinite;
+}
+.no__display__big {
+  display: none;
+}
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  footer {
+    width: 100%;
+    justify-content: unset;
+    margin-left: unset;
+  }
+
+  .no__display__big {
+    display: list-item;
+  }
+
+  footer > .main__header > .header__navigation {
+    display: block;
+  }
+
+  footer .main__header {
+    height: unset;
+  }
+
+  .main__header .header__navigation ul {
+    display: grid;
+    gap: unset;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 52px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .end {
+    flex-direction: column;
+    margin-left: unset;
+    gap: 20px;
+  }
+
+  .end p {
+    margin-left: 17px;
+    margin-bottom: 62px;
+  }
+
+  .end a {
+    margin-left: 17px;
+  }
+
+  .foottag {
+    margin-top: 35px;
+  }
+
+  .footer__company__name p {
+    display: none;
+  }
+
+  .nav-burger-foottag {
+    display: none;
+  }
+
+  nav.header__navigation {
+    display: none;
+  }
+
+  aside .aside-right {
+    width: 100vh;
+  }
+
+  section {
+    padding: unset;
+  }
+
+  .orangeline {
+    width: 97%;
+  }
+
+  .container .row-cols-2 {
+    flex-direction: column;
+  }
+  .container .row-cols-2 .col {
+    width: 100%;
+  }
+
+  .name #name {
+    margin-left: unset;
+  }
+
+  section .col img {
+    display: block;
+    width: 85%;
+    height: unset;
+    margin: 0 auto;
+  }
+
+  section .col h2 {
+    margin-left: 22px;
+    font-weight: bold;
+  }
+
+  section .col hr {
+    margin-left: 22px;
+    height: 2.09px;
+  }
+
+  section .col p {
+    margin-left: 22px;
+    font-weight: 600;
+  }
+
+  section #name2 {
+    margin-left: 22px;
+    font-weight: bold;
+  }
+
+  .pagination {
+    padding-right: 80px;
+    margin-right: unset;
+  }
+
+  .pagination li {
+    margin-left: unset;
+  }
+
+  .nav-burger-foottag {
+    display: none;
+  }
+
+  .aside-right .col-right {
+    opacity: 0;
+  }
 }
 /*# sourceMappingURL=works.fb8b2626.css.map */
