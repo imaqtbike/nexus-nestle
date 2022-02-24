@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nexus</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link rel="stylesheet" href="/index.75791508.css">
+    <link rel="stylesheet" href="/index.faf090af.css">
 </head>
 <body>
     <main style="overflow: hidden;"> 
@@ -49,8 +51,8 @@
                         </li>
                     </ul>
                 </nav>
-                <input type="checkbox" id="myInput">
-  <label for="myInput">
+    <input type="checkbox" id="myInput">
+  <label class="nav-burger" for="myInput">
       <span class="bar top"></span>
       <span class="bar middle"></span>
       <span class="bar bottom"></span>
@@ -58,18 +60,67 @@
   <aside>
     <div class="aside-section aside-left">
       <div class="aside-content">
-        <img src="/N.16fef2cd.png" alt="logo company">
-        <p> Some text that will make you click the cta </p>
-        <button class="button"> CTA </button>
+        <h1>
+            <span class="new">NEW</span>
+            <span>X</span>
+            <span class="natural">NATURAL</span>
+        </h1>
       </div>
     </div>
     <div class="aside-section aside-right">
-      <ul class="aside-list">
-        <li><a href="" class="aside-anchor">Link</a></li>
-        <li><a href="" class="aside-anchor">Link</a></li>
-        <li><a href="" class="aside-anchor">Link</a></li>
-        <li><a href="" class="aside-anchor">Link</a></li>
-      </ul>
+        
+        <div class="col-right">
+            <ul class="aside-list">
+                <li style="pointer-events: none;">
+                    <a class="aside-anchor" href="#">about us</a> </li>
+                 <li>
+                     <a class="aside-anchor" href="/pages/hitorigoto.html">
+                         hitorigoto
+                     </a>
+                 </li>
+                 <li>
+                     <a class="aside-anchor" href="/pages/works.html">
+                         works
+                     </a>
+                     </li>
+            </ul>
+            <div class="footer">
+                <div class="end" style="display: flex; justify-content: space-between;">
+                    <div class="footer__company__name">
+                       <p>© Nexus Nestle Inc</p>
+                     </div>
+                     <div class="foottag">
+                       <ul style="display: flex;">
+                         <li>TW</li>
+                         <li>TW</li>
+                       </ul>
+                     </div>
+                     </div>
+            </div>
+        </div>
+        <div class="col-left">
+            <ul class="aside-list">
+        
+                <li>
+                    <a class="aside-anchor" href="/pages/company.html">
+                        company
+                    </a> 
+                    </li>
+                <li>
+                    <a class="aside-anchor" href="/pages/recruit.html">
+                        recruit
+                    </a>
+                    </li>
+                <li>
+                    <a class="aside-anchor" href="/pages/access.html">
+                        access
+                    </a>
+                </li>
+                <li>
+                    <a class="aside-anchor" href="/pages/contact.html">contact</a>
+                </li>
+              </ul>
+        </div>
     </div>
   </aside>
             </div>
@@ -326,4 +377,10 @@
 </body>
 <script src="/index.c719088e.js"></script>
 
+<script>$('input[id="myInput"]').on('change', function(e) {
+    if ($(this).prop('checked')) $('body').css('overflow', 'hidden');
+    else $('body').css('overflow', 'auto');
+});
+
+</script>
 </html>
